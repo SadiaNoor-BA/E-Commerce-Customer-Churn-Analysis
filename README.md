@@ -15,20 +15,20 @@ Category Risk: The **Mobile Phone** and **Mobile** categories experience the hig
 
 Logistics Impact: Analysis identifies a correlation between **Warehouse-to-Home distance** and customer attrition.
 
-### **Technical Skills Applied**
-## **1. Data Cleaning & Transformation**
+## **Technical Skills Applied**
+### **1. Data Cleaning & Transformation**
 **Power Query:** Handled missing values for **Tenure** (replaced with 0) and **WarehouseToHome** (replaced with the column average).
 
 **Data Formatting:** Standardized data types for financial values and customer IDs to ensure data integrity.
 
-## **2. DAX Measures**
+### **2. DAX Measures**
 Total Customers: Total Customers = COUNT('E Comm'[CustomerID])
 
 Churned Customers: Churned Customers = SUM('E Comm'[Churn])
 
 Churn Rate %: Churn Rate % = DIVIDE([Churned Customers], [Total Customers], 0)
 
-## **3. Data Visualization**
+### **3. Data Visualization**
 **Executive KPIs:** High-level summary cards for immediate status updates.
 
 **Risk Analysis:** Scatter plots to correlate warehouse distance with churn.
