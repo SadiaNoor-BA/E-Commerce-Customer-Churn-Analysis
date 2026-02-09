@@ -22,11 +22,11 @@ Logistics Impact: Analysis identifies a correlation between **Warehouse-to-Home 
 **Data Formatting:** Standardized data types for financial values and customer IDs to ensure data integrity.
 
 ### **2. DAX Measures**
-Total Customers: Total Customers = COUNT('E Comm'[CustomerID])
+**Total Customers:** Total Customers = COUNT('E Comm'[CustomerID])
 
-Churned Customers: Churned Customers = SUM('E Comm'[Churn])
+**Churned Customers:** Churned Customers = SUM('E Comm'[Churn])
 
-Churn Rate %: Churn Rate % = DIVIDE([Churned Customers], [Total Customers], 0)
+**Churn Rate %:** Churn Rate % = DIVIDE([Churned Customers], [Total Customers], 0)
 
 ### **3. Data Visualization**
 **Executive KPIs:** High-level summary cards for immediate status updates.
