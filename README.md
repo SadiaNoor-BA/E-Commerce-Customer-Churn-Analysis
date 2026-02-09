@@ -38,10 +38,10 @@ Interactive Slicers: Enabled filtering by Product Category for departmental anal
 Conditional Formatting: Applied red-flag highlighting for customers who have complained to prioritize outreach.
 
  ## How to Use This Dashboard
-Identify At-Risk Customers: Use the High-Priority Retention List to see active customers (Churn = 0) who have active complaints.
+**Identify At-Risk Customers:** Use the High-Priority Retention List to see active customers (Churn = 0) who have active complaints.
 
-Filter by Category: Use the slicer on the left to focus on specific product departments.
+**Filter by Category:** Use the slicer on the left to focus on specific product departments.
 
-Analyze Logistics: View the Scatter Plot to identify if specific warehouse distances are causing delivery friction.
+**Analyze Logistics:** View the Scatter Plot to identify if specific warehouse distances are causing delivery friction.
 
 ![Project Dashboard](ECom_dashboard.png)
